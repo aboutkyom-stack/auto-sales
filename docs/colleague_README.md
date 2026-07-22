@@ -2,7 +2,14 @@
 
 > 이커머스 제품 등록 자동화 파이프라인
 > 작성일: 2026년 4월 22일
-> 최종 업데이트: 2026년 4월 22일 (v2 초기 구축 완료)
+> 최종 업데이트: 2026년 5월 25일 (Streamlit Cloud 배포 완료)
+
+## 🌐 접속 주소 (동료용)
+
+**https://auto-sales-wktrade.streamlit.app**
+
+- 로컬 설치 없이 브라우저만으로 접속 가능
+- 접근 제한: 허용된 이메일만 로그인 가능 (미허용 시 관리자에게 요청)
 
 ---
 
@@ -235,7 +242,13 @@ drive_files (제품별 이미지/영상 파일)
 
 ---
 
-## 🚧 개발 현황 (2026.04.22 기준)
+## 🚧 개발 현황 (2026.05.25 기준)
+
+### ✅ 배포 완료
+- Streamlit Cloud 배포 완료 (https://auto-sales-wktrade.streamlit.app)
+- GitHub 연동 완료 (`aboutkyom-stack/auto-sales`, Public repo)
+- 접근 제한(Restricted access) 설정 — 허용된 이메일만 접속 가능
+- 동료 첫 접속 테스트 완료
 
 ### ✅ 완료
 - product_catalog 구축 (1,142개 엑셀 데이터 업로드)
@@ -256,8 +269,6 @@ drive_files (제품별 이미지/영상 파일)
 - 실제 제품 데이터 입력 및 DB 축적
 - AI 분석 파이프라인 테스트 및 퀄리티 개선
 - AI 분석 / 상세페이지 생성 별도 앱 분리 검토
-- GitHub 연동 및 협업 구조 구축
-- Streamlit Cloud 배포 (URL 고정, 팀원 접근)
 - 플랫폼 자동 업로드 (쿠팡, 스마트스토어 등) — 장기
 
 ### ⏸️ 보류
